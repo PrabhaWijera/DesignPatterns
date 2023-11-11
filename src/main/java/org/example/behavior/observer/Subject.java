@@ -13,6 +13,7 @@ public class Subject {
     }
     public void setValue(int value){
         this.value=value;
+        notifyToAllObservers();
     }
 
     public void attach(Observer observers){
