@@ -1,9 +1,9 @@
 package org.example.behavior;
 
-import org.example.behavior.observer.BinaryObserver;
-import org.example.behavior.observer.HexaObserver;
-import org.example.behavior.observer.OctacleObserver;
-import org.example.behavior.observer.Subject;
+import org.example.behavior.Observer_designpttern.observer.BinaryObserver;
+import org.example.behavior.Observer_designpttern.observer.HexaObserver;
+import org.example.behavior.Observer_designpttern.observer.OctacleObserver;
+import org.example.behavior.Observer_designpttern.observer.Subject;
 
 public class Main {
 

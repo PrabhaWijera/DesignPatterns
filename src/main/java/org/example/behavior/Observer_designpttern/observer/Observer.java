@@ -1,4 +1,4 @@
-package org.example.behavior.observer;
+package org.example.behavior.Observer_designpttern.observer;
 
 public abstract class Observer {
 

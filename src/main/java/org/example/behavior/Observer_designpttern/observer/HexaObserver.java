@@ -1,6 +1,4 @@
-package org.example.behavior.observer;
-
-import java.util.Observable;
+package org.example.behavior.Observer_designpttern.observer;
 
 public class HexaObserver extends Observer {
 
