@@ -1,4 +1,4 @@
-package org.example.structral;
+package org.example.structral.facade;
 
 public class ShapeMaker_facade {
 
@@ -7,10 +7,12 @@ public class ShapeMaker_facade {
     private FacadeInterface trangle;
 
 
-    public ShapeMaker_facade(FacadeInterface circle, FacadeInterface trangle) {
-        this.circle = circle;
-        this.trangle = trangle;
+    public ShapeMaker_facade() {
+        circle = new Circle();
+        trangle = new Trangle();
     }
+
+
 
     public void CallbackCircle(){
         circle.shapes();
@@ -18,5 +20,6 @@ public class ShapeMaker_facade {
     public void CallbackTrangle(){
         trangle.shapes();
     }
+
 
 }

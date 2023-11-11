@@ -1,4 +1,4 @@
-package org.example.structral;
+package org.example.structral.facade;
 
 public interface FacadeInterface {
 
